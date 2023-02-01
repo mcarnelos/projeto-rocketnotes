@@ -1,16 +1,19 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import { ThemeProvider } from 'styled-components' //importando ThemeProvider
 import theme from './styles/theme'
-import GlobalStyle from './styles/global'
+import GlobalStyles from './styles/global'
+import { AuthProvider } from './hooks/auth'
 
 import { Routes } from './routes'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <GlobalStyle />
-      <Routes />
-    </ThemeProvider>
+      <GlobalStyles />
+      <AuthProvider>{/* faz com que o contexto possa ser acessado por toda a aplicação */}
+        <Routes />
+      </AuthProvider>
+      </ThemeProvider>
   </React.StrictMode>
 )
