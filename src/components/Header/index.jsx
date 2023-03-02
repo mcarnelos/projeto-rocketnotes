@@ -15,7 +15,7 @@ export function Header() {
     signOut()
   }
 
-  const avatarUrl = user.avatar ? `${api.defaults.baseURL}/files/${user.avatar}` : avatarPlaceholder//busca a imagem do avatar no back-end
+  const avatarUrl = user.avatar ? `${api.defaults.baseURL}/files/${user.avatar}` : avatarPlaceholder //busca a imagem do avatar no back-end
 
   return (
     <Container>

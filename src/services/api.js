@@ -2,5 +2,5 @@
 import axios from "axios"
 
 export const api = axios.create({
-  baseURL: 'http://localhost:3333' //url básica para acessar o back-end
+  baseURL: 'https://api-rocketnotes-l0mo.onrender.com' //url básica para acessar o back-end
 })
