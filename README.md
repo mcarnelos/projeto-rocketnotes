@@ -3,7 +3,10 @@
 
 # Sobre o projeto
 
-O projeto Rocketnotes foi criado durante o programa Explorer da Rocketseat, onde foi desenvolvido um site para criação de notas utilizando os principais recursos de uma aplicação React. Foi criado utilizando conceitos de Fragment, CSS-in-Js, componentização e rotas.
+O projeto Rocketnotes foi criado durante o programa Explorer da Rocketseat, onde foi desenvolvido um site para criação de notas para armazenar links úteis utilizando os principais recursos de uma aplicação React. Foi criado utilizando conceitos de Fragment, CSS-in-Js, styled-components, consumo de api e rotas. 
+
+O Front-end do projeto foi hospedado no Netlify e o Back-end no Render e pode ser acessado no endereço: 
+https://siterocketnotes.netlify.app
 
 ## Layout web
 Veja abaixo as telas do projeto
@@ -32,7 +35,7 @@ git clone https://github.com/mcarnelos/rocketnotes
 # entrar na pasta rocketnotes
 abrir na IDE de preferência, no meu caso foi utilizado o Visual Studio Code.
 
-É necessário ter o npm e o Vite instalado e para executar o projeto usar o comando: npm run dev
+É necessário ter o npm e o Vite instalado e para executar o projeto localmente usar o comando: npm run dev
 ```
 
 # Autor
